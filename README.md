@@ -17,7 +17,19 @@ This is a simple, responsive movie search application built with React and Vite.
 
 ## Screenshots
 
-[Add screenshots of your app here, showing both light and dark modes]
+- Home Page 
+
+![Screenshot](./src/assets/Home1.png) <br>
+
+![Screenshot](./src/assets/Home.png) <br>
+
+- After Search
+
+![Screenshot](./src/assets/img1.png) <br>
+
+![Screenshot](./src/assets/img2.png) <br>
+
+
 
 ## Technologies Used
 
