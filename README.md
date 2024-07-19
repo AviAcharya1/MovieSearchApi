@@ -13,7 +13,7 @@ This is a simple, responsive movie search application built with React and Vite.
 
 ## Live Demo
 
-[Add a link to your deployed app here]
+[https://movie-search-api-khaki.vercel.app/]
 
 ## Screenshots
 
