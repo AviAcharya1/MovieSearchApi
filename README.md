@@ -56,20 +56,27 @@ git clone https://github.com/aviacharya1/MovieSearchApp.git
 ```
 2. Navigate to the project directory:
 
-- cd movie-search-app
+```
+ cd movie-search-app
+```
 
 3. Install dependencies:
 
-- npm install
+```
+npm install
+```
 
 4. Create a `.env.local` file in the root directory and add your TMDb API key:
 
-- VITE_TMDB_API_KEY=your_api_key_here
-
+```
+ VITE_TMDB_API_KEY=your_api_key_here
+```
 
 5. Start the development server:
 
+```
 npm run dev
+```
 
 6. Open your browser and visit `http://localhost:5173`
 
