@@ -1,0 +1,115 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 13px 20px;
+  font-size: 16px;
+  background-color: #295686;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #007bff;
+  transition: 1.2s;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+ box-shadow: 0 0 4px #05050575;
+}
+
+.movie-card img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.theme-toggle {
+  position: absolute;
+  height: 50px;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #2a71bd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.light-mode {
+  background-color: #fdf9f9;
+  color: #050505;
+}
+
+.dark-mode {
+  background-color: #080808;
+  color: #ffffff;
+}
+
+.dark-mode .movie-card {
+  background-color: #3231317c;
+  border-color: #555555;
+  box-shadow: 0 0 8px white;
+}
+.dark-mode .movie-card img{
+  box-shadow: 0 0 3px rgba(244, 239, 239, 0.447);
+} 
+.dark-mode input,
+.dark-mode button {
+  background-color: #54545483;
+  color: #ffffff;
+  border-color: #666666;
+  box-shadow: 0 0 2px white;
+}
+
+.dark-mode .theme-toggle {
+  background-color: #585454;
+}
+
+.dark-mode button:hover{
+  background-color: #6284a7;
+  transition: 1.2s;
+}
